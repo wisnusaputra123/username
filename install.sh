@@ -112,7 +112,7 @@ echo -e "${y}
 
 ;;
 
-6)created by : wisnu-saputra" | lolcat
+6) echo "created by : wisnu-saputra" | lolcat
 exit
 ;;
 
