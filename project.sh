@@ -21,7 +21,12 @@ red='\e[1;31m'
 figlet Wisnu | lolcat
 figlet Saputra | lolcat
 echo -e  "_____________________________________________________________"
-echo -e  "Tools    : Wisnu-Tools-Installer $white         " |lolcat
-echo -e  "Creadby  : Wisnu_Saputra-123 $white   " |lolcat
-echo -e  "Contact  : username123@gmail.com $white " |lolcat
+
+echo -e  "instagram    : wisnu_as123 $white         " |lolcat
+
+echo -e  "whatsapp     : 085780496494 $white   " |lolcat
+
+echo -e  "Contact      : username123@gmail.com $white " |lolcat
+
 echo -e  "_____________________________________________________________"
+                             "peretas tanpa batas"
