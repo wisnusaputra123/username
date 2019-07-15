@@ -20,11 +20,11 @@ red='\e[1;31m'
 
 figlet Wisnu | lolcat
 figlet Saputra | lolcat
-echo -e $b "_________________________________________________________"
+echo -e $b "_______________________________________________"
 echo -e  "instagram : wisnu_as123 $white         " |lolcat
 echo -e  "whatsapp  : 085780496494 $white   " |lolcat
 echo -e  "Contact   : username123@gmail.com $white " |lolcat
-echo -e $b "_________________________________________________________"
+echo -e $b "_______________________________________________"
 
 ###################################################
 # CTRL + C
@@ -51,11 +51,11 @@ echo -e $r "2.  Matrix${endc}";
 echo -e "============================" | lolcat
 echo -e $g "3.  php${endc}";
 echo -e "============================" | lolcat
-echo -e $c "4.   git${endc}";
+echo -e $c "4.  git${endc}";
 echo -e "============================" | lolcat
-echo -e $r"5.   ruby${endc}";
+echo -e $r"5.  ruby${endc}";
 echo -e "============================" | lolcat
-echo -e $r "6. Exit${endc}";
+echo -e $r"6.  Exit${endc}";
 echo ""
 echo -e "╭─wisnu" |lolcat
 read -p "╰─#" pil;
@@ -64,6 +64,7 @@ read -p "╰─#" pil;
 
 1) pkg install python2
 
+echo
 ;;
 
 # Matrix
@@ -76,19 +77,19 @@ echo
 #php
 
 3) pkg install php
-
+echo
 ;;
 
 #git
 
 4) pkg install git
-
+echo
 ;;
 
 #ruby
 
 5) pkg install ruby
-
+echo
 ;;
 
 
