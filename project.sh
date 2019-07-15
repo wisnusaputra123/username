@@ -45,29 +45,24 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1.  Nmap${enda}";
+echo -e $b "1.  python2${enda}";
 echo -e "============================" | lolcat
 echo -e $r "2.  Matrix${endc}";
 echo -e "============================" | lolcat
-echo -e $g "3.  RED_HAWK${endc}";
+echo -e $g "3.  php${endc}";
 echo -e "============================" | lolcat
-echo -e $c "4   Lazymux${endc}";
+echo -e $c "4.   git${endc}";
 echo -e "============================" | lolcat
-echo -e $r"5.  Tools-X${endc}";
+echo -e $r"5.   ruby${endc}";
 echo -e "============================" | lolcat
 echo -e $r "6. Exit${endc}";
 echo ""
 echo -e "╭─wisnu" |lolcat
 read -p "╰─#" pil;
 
-# Nmap
+# python2
 
-case $pil in
-1) pkg install nmap
-echo -e  "${y} {1} Masukkan Web${endc}:"
-read web
-nmap $web
-echo
+1) pkg install python2
 
 ;;
 
@@ -78,36 +73,21 @@ echo
 echo
 ;;
 
-#RED_HAWK
+#php
 
-3) git clone https://github.com/Tuhinshubhra/RED_HAWK
-echo -e "${y} Installer RED_HAWK..."
-echo -e "${y} cd RED_HAWK"
-echo -e "${y} php RED_HAWK.php"
-cd /data/data/com.termux/files/home/RED_HAWK/
-php /data/data/com.termux/files/home/RED_HAWK/ RED_HAWK.php
+3) pkg install php
 
 ;;
 
-#Lazymux
+#git
 
-4) git clone https://github.com/Gameye98/Lazymux
-echo -e "${y} Installer Lazymux..."
-echo -e "${y} cd Lazymux"
-echo -e "${y} python lazymux.py"
-cd /data/data/com.termux/files/home/Lazymux/
-python2 /data/data/com.termux/files/home/Lazymux/ lazymux.py
+4) pkg install git
 
 ;;
 
-#Tools-X
+#ruby
 
-5) git clone https://github.com/Rajkumrdusad/Tool-X
-echo -e "${y} Installer Tool-X..."
-echo -e "${y} cd Tool-X"
-echo -e "${y} sh install.aex"
-cd /data/data/com.termux/files/home/Tool-X
-bash /data/data/com.termux/files/home/Tool-X/sh install.aex
+5) pkg install ruby
 
 ;;
 
