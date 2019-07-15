@@ -55,7 +55,8 @@ echo -e $c "4   Git${endc}";
 echo -e "============================" | lolcat
 echo -e $r"5.  Figlet${endc}";
 echo -e "============================" | lolcat
-echo -e $r "6. Exit${endc}";
+echo -e $r "6. SpamCall${endc}";
+echo -e $b "7. Exit${endc}";
 echo ""
 echo -e "╭─wisnu" |lolcat
 read -p "╰─#" pil;
@@ -112,8 +113,15 @@ echo -e "${y}
 
 ;;
 
+#SpamCall
 
-6) echo "created by : wisnu-saputra" | lolcat
+6) https://github.com/wisnusaputra123/spamcall.git)
+echo -e "${y} cd spamcall
+echo -e "${y} php call.php
+
+;;
+
+7)created by : wisnu-saputra" | lolcat
 exit
 ;;
 
