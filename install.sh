@@ -22,7 +22,7 @@ figlet saputra |lolcat
 
 echo -e  "_____________________________________________________________"
 echo -e  "Tools    : Wisnu-Tools-Installer $white         " |lolcat
-echo -e  "Creadby  : Wisnu_Saputra-123 $white   " |lolcat
+echo -e  "instagram  : wisnu_as123 $white   " |lolcat
 echo -e  "Contact  : username123@gmail.com $white " |lolcat
 echo -e  "_____________________________________________________________"
 
@@ -45,7 +45,7 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1.  Python2${enda}";
+echo -e $c "1.  Python2${enda}";
 echo -e "============================" | lolcat
 echo -e $r "2.  Ruby${endc}";
 echo -e "============================" | lolcat
