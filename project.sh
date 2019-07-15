@@ -61,37 +61,6 @@ echo ""
 echo -e "╭─wisnu" |lolcat
 read -p "╰─#" pil;
 
-# python2
-
-1) pkg install python2
-
-echo
-;;
-
-# Matrix
-
-2) pkg install cmatrix
-
-echo
-;;
-
-#php
-
-3) pkg install php
-echo
-;;
-
-#git
-
-4) pkg install git
-echo
-;;
-
-#ruby
-
-5) pkg install ruby
-echo
-;;
 
 
 6) echo "created by : wisnu-saputra" | lolcat
