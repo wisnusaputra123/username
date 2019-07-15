@@ -17,7 +17,8 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-figlet Tools | lolcat
+figlet wisnu | lolcat
+figlet saputra |lolcat
 
 echo -e  "_____________________________________________________________"
 echo -e  "Tools    : Wisnu-Tools-Installer $white         " |lolcat
