@@ -18,9 +18,8 @@ cyan='\e[1;36m'
 red='\e[1;31m'
 
 figlet wisnu | lolcat
-figlet saputra |lolcat
-
-echo -e  "_____________________________________________________________"
+figlet saputra | lolcat
+echo -e "__________________________________________________"
 echo -e  "Tools    : Wisnu-Tools-Installer $white         " |lolcat
 echo -e  "instagram  : wisnu_as123 $white   " |lolcat
 echo -e  "Contact  : username123@gmail.com $white " |lolcat
@@ -45,60 +44,61 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $c "1.  Python2${enda}";
+echo -e $b "1.  install-command${enda}";
 echo -e "============================" | lolcat
-echo -e $r "2.  Ruby${endc}";
+echo -e $r "2.  Spamcall${endc}";
 echo -e "============================" | lolcat
-echo -e $g "3.  PHP${endc}";
+echo -e $g "3.  Phising${endc}";
 echo -e "============================" | lolcat
-echo -e $c "4   Git${endc}";
+echo -e $c "4   SpamSms${endc}";
 echo -e "============================" | lolcat
 echo -e $r"5.  Figlet${endc}";
 echo -e "============================" | lolcat
 echo -e $r "6. Exit${endc}";
 echo ""
-echo -e "╭─wisnu" |lolcat
+echo -e "╭─pilih nomor" |lolcat
 read -p "╰─#" pil;
 
-# Python2
+# install-command
 
 case $pil in
-1) pkg install python2
-echo -e  "${y} {1} selesai${endc}:"
-
+1) git clone https://github.com/wisnusaputra123/spam.git
+echo -e  "${y} {1} cd spam${endc}:"
+echo -e  "${y} {1} bash project.sh${endc}:"
  
-echo
-
-;;
-
-# Ruby
-
-2) pkg install ruby
-echo -e "${y} ruby telah teristall"
-echo -e "${y} 
-echo -e "${y}
-
 
 echo
 
 ;;
 
-# PHP
+# spamcall
 
-3) pkg install php
-echo -e "${y} php telah terinstall..."
-echo -e "${y} 
-echo -e "${y} 
+2) git clone https://github.com/wisnusaputra123/spamcall.git
+echo -e "${y} cd spamcall"
+echo -e "${y} tunggu sebentar
+echo -e "${y} php call.php
+
+
+echo
+
+;;
+
+# Phising
+
+3) figlet premium | lolcat
+echo -e "${y} tools ini tidak gratis..."
+echo -e "${y} maaf
+echo -e "${y} silahkan daftar menjadi member VIP via whatsapp : 085780496494
 
 
 ;;
 
-# Git
+# SpamSms
 
-4) pkg install git
-echo -e "${y} git telah terinstall..."
+4) git clone https://github.com/KANG-NEWBIE/SpamSms
+echo -e "${y} SpamSms installed..."
 echo -e "${y}
-echo -e "${y} 
+echo -e "${y} ls untuk melihat script nya
 
 
 ;;
@@ -111,6 +111,7 @@ echo -e "${y}
 echo -e "${y}
 
 ;;
+
 
 6) echo "created by : wisnu-saputra" | lolcat
 exit
