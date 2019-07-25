@@ -87,7 +87,7 @@ echo
 
 3) figlet premium | lolcat
 echo -e "${y} tools ini tidak gratis..."
-echo -e "${y} silahkan daftar menjadi member VIP via whatsapp : 085780496494
+echo -e "${y} silahkan daftar menjadi member VIP via whatsapp : 085780496494..."
 
 
 ;;
