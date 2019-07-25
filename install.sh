@@ -44,7 +44,7 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $c "1.  install-command${enda}";
+echo -e $b "1.  install-command${enda}";
 echo -e "============================" | lolcat
 echo -e $r "2.  Spamcall${endc}";
 echo -e "============================" | lolcat
@@ -52,7 +52,7 @@ echo -e $g "3.  Phising${endc}";
 echo -e "============================" | lolcat
 echo -e $c "4   SpamSms${endc}";
 echo -e "============================" | lolcat
-echo -e $r"5.  Figlet${endc}";
+echo -e $r"5.  Cara-menjalankan${endc}";
 echo -e "============================" | lolcat
 echo -e $r "6. Exit${endc}";
 echo ""
@@ -87,8 +87,7 @@ echo
 
 3) figlet premium | lolcat
 echo -e "${y} tools ini tidak gratis..."
-echo -e "${y} maaf
-echo -e "${y} silahkan daftar menjadi member VIP via whatsapp : 085780496494
+silahkan daftar menjadi member VIP via whatsapp : 085780496494
 
 
 ;;
@@ -103,12 +102,24 @@ echo -e "${y} ls untuk melihat script nya
 
 ;;
 
-# Figlet
+# Cara-menjalankan
 
-5) pkg install figlet
-echo -e "${y} figlet telah terinstall..."
-echo -e "${y}
-echo -e "${y}
+5) figlet tutorial | lolcat
+echo -e
+"================================="
+ CARA MENJALANKAN TOOLS NYA
+  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
+ 
+-.pertama.. ketik command 'ls' di dalam
+   Repository spam
+
+ -.kedua..setelah 'ls' buka tools nya pakai
+   Command 'cd'
+
+ -.peringatan...tidak menggunakan tanda
+   Petik seperti di atas
+echo -
+e "================================="
 
 ;;
 
