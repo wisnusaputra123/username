@@ -44,7 +44,7 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1.  install-command${enda}";
+echo -e $c "1.  install-command${enda}";
 echo -e "============================" | lolcat
 echo -e $r "2.  Spamcall${endc}";
 echo -e "============================" | lolcat
@@ -87,7 +87,7 @@ echo
 
 3) figlet premium | lolcat
 echo -e "${y} tools ini tidak gratis..."
-silahkan daftar menjadi member VIP via whatsapp : 085780496494
+echo -e "${y} silahkan daftar menjadi member VIP via whatsapp : 085780496494
 
 
 ;;
@@ -110,14 +110,14 @@ echo -e
  CARA MENJALANKAN TOOLS NYA
   ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
  
--.pertama.. ketik command 'ls' di dalam
-   Repository spam
+echo -e -.pertama.. ketik command 'ls' di dalam
+          Repository spam
 
- -.kedua..setelah 'ls' buka tools nya pakai
-   Command 'cd'
+echo -e -.kedua..setelah 'ls' buka tools nya pakai
+          Command 'cd'
 
- -.peringatan...tidak menggunakan tanda
-   Petik seperti di atas
+echo -e -.peringatan...tidak menggunakan tanda
+          Petik seperti di atas
 echo -
 e "================================="
 
