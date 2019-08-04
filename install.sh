@@ -28,6 +28,19 @@ echo -e  "_____________________________________________________________"
 ###################################################
 # CTRL + C
 ###################################################
+echo -e "mohon tunggu sebentar" |lolcat
+echo -e  "╭━━━━━━━╮" |lolcat
+echo -e  "┃  ● ══ ┃" |lolcat
+echo -e  "┃███████┃"  |lolcat
+echo -e  "┃███████┃" |lolcat
+echo -e  "┃███████┃"  |lolcat
+echo -e  "┃███████┃" |lolcat
+echo -e  "┃███████┃"  |lolcat
+echo -e  "┃   ○   ┃" |lolcat
+echo -e  "╰━━━━━━━╯"  |lolcat
+figlet tool |lolcat
+figlet installer |lolcat
+
 trap ctrl_c INT
 ctrl_c() {
 clear
@@ -106,20 +119,20 @@ echo -e "${y} ls untuk melihat script nya
 
 5) figlet tutorial | lolcat
 echo -e
-"================================="
- CARA MENJALANKAN TOOLS NYA
-  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
+"=================================" |lolcat
+echo -e "CARA MENJALANKAN TOOLS NYA" |lolcat
+echo -e "~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~" |lolcat
  
-echo -e -.pertama.. ketik command 'ls' di dalam
-          Repository spam
+echo -e "-.pertama ketik command 'ls' di dalam
+echo -e "Repository username
 
-echo -e -.kedua..setelah 'ls' buka tools nya pakai
-          Command 'cd'
+echo -e "-.kedua setelah 'ls' buka tools nya pakai
+echo -e "Command 'cd'
 
-echo -e -.peringatan...tidak menggunakan tanda
-          Petik seperti di atas
+echo -e "-.peringatan...tidak menggunakan tanda" |lolcat
+echo -e "Petik seperti di atas" |lolcat
 echo -
-e "================================="
+e "=================================" |lolcat
 
 ;;
 
