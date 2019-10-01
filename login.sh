@@ -7,7 +7,13 @@ Y='\x1b[1;33m'
 C='\x1b[1;36m'
 D='\x1b[0m'
 
-function Percent(){
+
+echo -n 'Masukkan Password Anda : '
+read pw; 
+
+if [ $pw = 'Termux' ];
+then
+   function Percent(){
     message="$1" 
     max=$2 
     
@@ -32,3 +38,8 @@ function Percent(){
     done
 }
 Percent "Loading..." 100
+
+else
+    echo 'Password anda salah'
+    echo 'Silakan Masukkan kembali'
+fi
