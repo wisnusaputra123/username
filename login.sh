@@ -7,13 +7,28 @@ Y='\x1b[1;33m'
 C='\x1b[1;36m'
 D='\x1b[0m'
 
+read nama; 
 
-echo -n 'Masukkan Password Anda : '
+echo 'Selamat Datang '$nama
+
+read -p 'Siapa Nama Anda : ' nama1; 
+
+echo 'Selamat Datang '$nama1
+   
+
+echo -n 'Masukkan Password  : '
 read pw; 
 
 if [ $pw = 'Termux' ];
 then
-   function Percent(){
+    echo 'Password anda benar'
+else
+    echo 'Password anda salah'
+    echo 'Chat Saya Untuk Mengakses Password (085718945758)'
+fi
+
+
+function Percent(){
     message="$1" 
     max=$2 
     
@@ -38,8 +53,3 @@ then
     done
 }
 Percent "Loading..." 100
-
-else
-    echo 'Password anda salah'
-    echo 'Silakan Masukkan kembali'
-fi
