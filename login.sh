@@ -6,16 +6,7 @@ B='\x1b[1;34m'
 Y='\x1b[1;33m'
 C='\x1b[1;36m'
 D='\x1b[0m'
-
-read nama; 
-
-echo 'Selamat Datang '$nama
-
-read -p 'Siapa Nama Anda : ' nama1; 
-
-echo 'Selamat Datang '$nama1
    
-
 echo -n 'Masukkan Password  : '
 read pw; 
 
